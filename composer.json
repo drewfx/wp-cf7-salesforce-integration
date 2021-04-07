@@ -1,0 +1,29 @@
+{
+    "name": "drewfx/salesforce-integration",
+    "description": "Salesforce Integration tool. Leverages simple user login and submission of leads via token-based system.",
+    "authors": [
+        {
+            "name": "Drew Ruppel",
+            "email": "me@druppel.io"
+        }
+    ],
+    "license": "MIT",
+    "type": "plugin",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "*"
+    },
+    "autoload": {
+        "psr-4": { "Drewfx\\Salesforce\\": ["src/Drewfx/"] },
+        "files": [
+            "functions/helpers.php"
+        ]
+    }
+}

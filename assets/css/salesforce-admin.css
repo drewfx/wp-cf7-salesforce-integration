@@ -1,0 +1,99 @@
+div.salesforce-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+div.salesforce-container .col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 540px;
+}
+
+div.salesforce-container div.col div.col-sidebar {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 1.5rem;
+}
+
+div.salesforce-container div.col .col-sidebar .postbox-sidebar {
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.30), 0 10px 25px rgba(0, 0, 0, 0.22);
+}
+
+div.salesforce-container div.col div.col-title {
+    margin-left: 1.5rem;
+}
+
+div.salesforce-container div.col div.col-description {
+    margin-left: 1.5rem;
+}
+
+div.postbox-sidebar div.actions {
+    min-width: 17rem;
+    background: #fff;
+    margin-bottom: 0;
+}
+
+div.postbox-sidebar div.actions h3 {
+    margin-left: 1rem;
+}
+
+div.salesforce-container div.col div.row.tiles {
+    padding: 1rem;
+    margin: 1.5rem;
+    background: #fbfbfb;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.30), 0 10px 25px rgba(0, 0, 0, 0.22);
+}
+
+div.salesforce-container div.col div.form-blacklist {
+    height: 100%;
+}
+
+div.salesforce-container div.col div.form-blacklist textarea {
+    width: 100%;
+    min-height: 365px;
+}
+
+table.api-credentials {
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+}
+
+table.api-credentials tr td:first-child {
+    font-weight: bolder;
+}
+
+table.api-credentials tr td.v-align-t {
+    vertical-align: top;
+}
+
+table.api-credentials td input,
+table.api-credentials td textarea {
+    width: 100%;
+}
+
+.postbox h3 {
+    margin-left: .5rem;
+}
+
+div.action-button-group button.button.button-primary,
+div.action-button-group button.button.button-primary-disabled,
+div.action-button-group button.button.button-secondary,
+div.action-button-group button.button.button-secondary-disabled,
+div.action-button-group input,
+div.action-button-group select {
+    margin: 0 0.5rem;
+}
+
+div.action-button-group button.button.button-primary-disabled,
+div.action-button-group button.button.button-secondary-disabled {
+    cursor: not-allowed;
+}
+
+div.mass-upload-notification {
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
